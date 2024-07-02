@@ -2,7 +2,7 @@ book_manager.list:
   path: '/books'
   defaults:
     _controller: '\Drupal\book_manager\Controller\BookController::listBooks'
-    _title: 'List Books'
+    _title: 'Books'
   options:
     no_cache: 'TRUE'
   requirements:

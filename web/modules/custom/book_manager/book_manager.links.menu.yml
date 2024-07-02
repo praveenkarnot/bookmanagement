@@ -1,7 +1,14 @@
-book_manager.admin_content:
+book_manager.book_list:
   title: 'Books Management'
   description: 'Manage books'
-  parent: system.admin_content
+  parent: system.admin_structure
   route_name: book_manager.list
   weight: 10
   menu_name: Books management
+book_manager.add_books:
+  title: 'Add Books'
+  description: 'Add books'
+  parent: system.admin_structure
+  route_name: book_manager.add
+  weight: 10
+  menu_name: Add Books

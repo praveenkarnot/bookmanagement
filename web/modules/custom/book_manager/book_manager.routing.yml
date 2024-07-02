@@ -17,7 +17,7 @@ book_manager.add:
     _permission: 'administer books'
 
 book_manager.edit:
-  path: '/admin/content/books/{id}/edit'
+  path: '/admin/content/books/{node}/edit'
   defaults:
     _form: '\Drupal\book_manager\Form\BookEditForm'
     _title: 'Edit Book'
@@ -25,7 +25,7 @@ book_manager.edit:
     _permission: 'administer books'
 
 book_manager.delete:
-  path: '/admin/content/books/{id}/delete'
+  path: '/admin/content/books/{node}/delete'
   defaults:
     _controller: '\Drupal\book_manager\Controller\BookController::deleteBook'
     _title: 'Delete Book'

@@ -1,0 +1,7 @@
+book_manager.admin_content:
+  title: 'Books Management'
+  description: 'Manage books'
+  parent: system.admin_content
+  route_name: book_manager.list
+  weight: 10
+  menu_name: Books management

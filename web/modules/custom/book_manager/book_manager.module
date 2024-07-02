@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_permission().
+ */
+function book_manager_permission() {
+  return [
+    'administer books' => [
+      'title' => t('Administer Books'),
+      'description' => t('Perform administrative tasks on books.'),
+    ],
+  ];
+}
